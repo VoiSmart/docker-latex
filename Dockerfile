@@ -3,6 +3,7 @@ FROM quay.io/fedora/fedora:34
 ENV LATEX_PKGS="\
   latex2html \
   texlive-collection-latexrecommended \
+  texlive-silence \
   "
 
 ENV OTHER_PKGS="\
